@@ -32,7 +32,7 @@ li a {
     border-right:thin solid;
     border-right-color:red;
     font-size:17px;
-    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-family: Calibri;
 }
 /*nav bar items end*/
 
@@ -45,10 +45,13 @@ li a {
 
 }
 
+/* Touch anything above this comment and you will regret it */
+
 .title {
     font-size: 40px;
     width:350px;
-    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-weight:500;
     position:absolute;
     top:140px;
     left:190px;
@@ -62,22 +65,42 @@ li a {
     left:770px;
 }
 
-.aboutme{
+.subHeader{
     position:absolute;
     top:180px;
-    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-family: Calibri;
+    font-weight: 100;
     font-size: 25px;
     color:#686868;
     padding-left:60px;
     
 }
 
-.aboutme02{
+.subSubheader{
             position:absolute;
             top:280px;
-            font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+            font-family: Calibri;
+            font-weight: 100;
             font-size: 17px;
-            color:#686868;
+            color:#808080;
             padding-left:60px;
 
+}
+
+.historyofMB{
+             border-bottom: 1px solid; 
+             border-top: 1px solid;
+             border-color:lightgray;
+             width:1100px;
+             height:270px;
+             position:relative;
+             top:250px;
+             left:40px;
+             padding:20px;
+             /*Text*/
+             font-family: Calibri;
+             color:dimgray;
+             font-size:20px;
+             line-height: 30px;
+             /*Text */
 }
