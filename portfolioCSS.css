@@ -1,0 +1,67 @@
+.navbar{
+        width:100%;
+        height:90px;
+        background-color:black;
+        position: absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+
+}
+
+.navbaritems{
+            position:relative;
+            left:120px;
+            width:120px;
+            height:35px;
+            float:left;
+            background-color:Black;
+            padding-top:32px;
+            font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+            color:white;
+            font-size: 18px
+}
+
+.roseapple{
+    width:70px;
+    height:70px;
+    position:relative;
+    top:10px;
+    left:-230px;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    position:absolute;
+    top:100px;
+    left:170px;
+}
+.frontpagepic{
+    width:344px;
+    height:475px;
+    position:absolute;
+    top:120px;
+    left:770px;
+}
+
+.aboutme{
+    position:absolute;
+    top:180px;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 25px;
+    color:#686868;
+    padding-left:60px;
+    
+}
+
+.aboutme02{
+            position:absolute;
+            top:280px;
+            font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+            font-size: 17px;
+            color:#686868;
+            padding-left:60px;
+
+}
