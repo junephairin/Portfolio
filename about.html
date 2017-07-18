@@ -3,25 +3,115 @@
     <head>
         <title>June Luangphairin</title>
         <link rel="stylesheet" type="text/css" href="portfolioCSS.css">
+
+        <style>
+
+            #engineer{ 
+                      border-top: 1px solid;
+                      border-color:lightgray;
+                      width:1020px;
+                      height:60px;
+                      position:relative;
+                      top:800px;
+                      left:100px;
+                      padding-top:100px;
+                      padding-bottom:100px;
+                      /*Text*/
+                      font-family: Calibri;
+                      color:dimgray;
+                      font-size:50px;
+                      font-weight: 100;
+                      text-align:center;
+                      /*Text */
+                    }
+
+            .aboutme{    
+                     font-size: 60px;
+                     width:350px;
+                     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+                     font-weight:500;
+                    }
+
+            #aboutme{
+                     position:absolute;
+                     top:178px;
+                     left:170px;
+                     text-align: center;
+                    }
+
+        #randomfacts{
+                     position:absolute;
+                     top:300px;
+                     right:250px;
+                     text-align: center;
+                    }
+                    
+    #randomfactslist{
+                     position:absolute;
+                     top:390px;
+                     left:610px;
+                     font-family: Calibri;
+                     font-weight: 100;
+                     font-size: 25px;
+                     line-height:35px;
+                     color:#686868;
+                     padding-left:60px;
+                    }
+
+         #aboutmesub{
+                     position:absolute;
+                     top:163px;
+                     left:450px;
+                    }         
+        #junethaipic{
+                     width:365px;
+                     height:487px;
+                     position:absolute;
+                     top:133px;
+                     right:450px;
+                     
+                    }
+        </style>
+
     </head>
     <body>
+
+        <!--________________ Navbar Items Start ______________________-->
 
         <div class="navbar">
             <ul>
                 <li><a href="index.html">homepage</a></li>
-                <li><a href="about.html">about</a></li>
+                <li><a href="about.html">aboutme</a></li>
                 <li><a href="mycreations.html">mycreations</a></li>
             </ul>
         </div>
 
         <img class="roseapple" src="roseapple.jpg"></img>
-
-        <div class="title">About Me</div>
-        <img class="frontpagepic" src="junepic01.jpg"></img>
-
-        <p class ="subHeader"> I'm a novice web developer, computer programmer, <br>
-                             and graphic designer.
         
-        <p class="subSubheader"> "I want to be an Engineer when I grow up."
+        <!--_________________ Navbar Items End ________________________ -->
+
+        <div class="aboutme" id="aboutme">about me</div>
+
+        <p class ="subHeader" id="aboutmesub"> I'm a novice web developer, computer programmer, <br>
+                                               and graphic designer.
+        <img id="junethaipic" src="junethaipic.jpg">
+
+        <div class="aboutme" id="randomfacts">random facts</div>
+            <ul id="randomfactslist">
+                <li>Born in Bangkok, Thailand</li></br>
+                <li>Does Muay Thai</li></br>
+                <li>Likes to Dance</li></br>
+                <li>Can split an apple in half with my hands</li></br>
+                <li>Plays Ice Hockey, but soccer is my favorite Sport</li></br>
+                <li>Listens to Chillstep</li></br>
+                <li>Paints nail art</li></br>
+                <li>Will pick summer over winter any day</li></br>
+                <li>Favorite colour is <span style="color:#bb002f;">red</span></li></br>
+                <li>Want to be a butterfly</li>
+            </ul>
+        
+
+        <div id="engineer"> "I want to be an Engineer when I grow up."</div>
+
     </body>
 </html>
